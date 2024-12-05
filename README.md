@@ -25,7 +25,7 @@ This is a sample companion application to a [blog post](https://labs.withsecure.
 2. **Install Python dependencies using Pipenv**
 
    ```sh
-   pipenv install --dev
+   make setup
    ```
 
 3. **Install Node.js dependencies and build the Vue.js application**
