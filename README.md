@@ -3,7 +3,7 @@
 
 This is a sample companion application to a [blong post](https://labs.withsecure.com/publications/multi-chain-prompt-injection) to showcase how prompt injection vulnerabilties can be tested in multi-chain LLM applications. This application uses the gpt4o from OpenAI, so you'll need an OpenAI API key to run this on your host.
 
-![Workout Planner Demo](workout-planner-demo.jpg)
+![Workout Planner Demo](workout-planner-demo.gif)
 
 
 ## Prerequisites
