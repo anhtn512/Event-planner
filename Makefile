@@ -3,8 +3,8 @@
 all: setup build run
 
 setup:
-	pipenv install --dev
-	pipenv run pip install -r requirements.txt
+	python3 -m pipenv install --dev
+	python3 -m pipenv run pip install -r requirements.txt
 
 build:
 	npm install --prefix client-app
@@ -12,4 +12,4 @@ build:
 	cp -r client-app/dist static
 
 run:
-	pipenv run uvicorn main:app --host 0.0.0.0 --port 8000
+	python3 -m pipenv run uvicorn main:app --host 0.0.0.0 --port 8000
