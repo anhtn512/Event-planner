@@ -1,17 +1,17 @@
 <!-- src/App.vue -->
 <template>
   <div id="app">
-    <WorkoutPlanner />
+    <EventPlanner />
   </div>
 </template>
 
 <script>
-import WorkoutPlanner from './components/WorkoutPlanner.vue';
+import EventPlanner from './components/EventPlanner.vue';
 
 export default {
   name: 'App',
   components: {
-    WorkoutPlanner,
+    EventPlanner,
   },
 };
 </script>
